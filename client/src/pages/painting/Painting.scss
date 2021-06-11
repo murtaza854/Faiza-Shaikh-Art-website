@@ -1,0 +1,156 @@
+.painting-container {
+  
+  // height: 100vh;
+    .col-md-6 {
+        height: 100vh;
+    }
+    img {
+      width: 100%; /* width of container */
+      // height: 100%;
+    //   height: 100vh; /* height of container */
+    //   object-fit: none;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    }
+    
+    .painting-text {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      margin-left: 50px;
+    }
+    h1 {
+        font-size: 60px;
+        font-family: 'Century Gothic';
+        text-transform: capitalize;
+    }
+    h5 {
+        font-size: 30px;
+        font-family: 'Century Gothic';
+    }
+  }
+
+    
+  .back-button {
+    position: absolute;
+    font-size: 50px !important;
+    margin-left: 50px;
+    margin-top: 50px;
+    z-index: 99999999999;
+    color: black;
+    &:hover {
+      cursor: pointer;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  @media (max-width: 1399px) {
+    .painting-container {
+        h1 {
+            font-size: 50px;
+        }
+        h5 {
+            font-size: 25px;
+        }
+      }
+  }
+  @media (max-width: 1199px) {
+    .painting-container {
+        h1 {
+            font-size: 45px;
+        }
+        h5 {
+            font-size: 23px;
+        }
+      }
+  }
+
+  @media (max-width: 991px) {
+    .painting-container {
+        h1 {
+            font-size: 30px;
+        }
+        h5 {
+            font-size: 18px;
+        }
+      }
+  }
+  @media (max-width: 767px) {
+    .back-button {
+      font-size: 30px !important;
+      margin-left: 10px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    img {
+      width: 90% !important;
+    }
+    .painting-container {
+      text-align: center;
+      .painting-text {
+        margin-left: 0;
+        margin-top: 30px;
+      }
+        h1 {
+            font-size: 30px;
+        }
+        h5 {
+            font-size: 20px;
+        }
+      }
+  }
+  @media (max-width: 500px) {
+    .painting-container {
+        h1 {
+            font-size: 28px;
+        }
+        h5 {
+            font-size: 17px;
+        }
+      }
+  }
+  @media (max-width: 400px) {
+    .painting-container {
+        h1 {
+            font-size: 25px;
+        }
+        h5 {
+            font-size: 16px;
+        }
+      }
+      .back-button {
+        // font-size: 50px !important;
+        // margin-left: 0px;
+      }
+  }
+  
+  @media (max-width: 767px) {
+    .back-button {
+      position: relative;
+    }
+    .first {
+        order: 1;
+    }
+    .second {
+        order: 2;
+    }
+    .painting-container {
+        font-family: Mories;
+      
+        .col-md-6 {
+            height: fit-content;
+        }
+        img {
+        top: 0%;
+        transform: translateY(0%);
+        }
+        
+        .painting-text {
+          top: 0%;
+          transform: translateY(0%);
+        }
+      }
+  }
+  

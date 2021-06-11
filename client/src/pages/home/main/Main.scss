@@ -1,0 +1,110 @@
+.main {
+	position: relative;
+  height: 100vh;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url(/assets/background.jpg);
+		filter: grayscale(100%);
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+	}
+    .header {
+        position: relative;
+        text-align: center;
+        top: 60%;
+        transform: translateY(-50%);
+        h1 {
+            font-size: 120px;
+            color: black;
+        }
+        .line {
+            height: 100px;
+            width: 1px;
+            margin: auto;
+            background-color: black;
+          }
+      }
+}
+
+@media (max-width: 1070px) {
+    .main {
+        height: 750px;
+        .header {
+            h1 {
+              font-size: 100px;
+            }
+          }
+    }
+  }
+  
+  @media (max-width: 815px) {
+    .main {
+        height: 650px;
+        .header {
+            h1 {
+              font-size: 80px;
+            }
+            .line {
+              height: 60px;
+            }
+          }
+    }
+  }
+  
+  @media (max-width: 685px) {
+    .main {
+        height: 550px;
+        .header {
+            h1 {
+              font-size: 60px;
+            }
+          }
+    }
+  }
+  
+  @media (max-width: 550px) {
+    .main {
+        height: 450px;
+        .header {
+            h1 {
+              font-size: 50px;
+            }
+            .line {
+              height: 40px;
+            }
+          }
+    }
+  }
+  
+  @media (max-width: 430px) {
+    .main {
+        height: 350px;
+        .header {
+            h1 {
+              font-size: 40px;
+            }
+          }
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .main {
+        height: 250px;
+        .header {
+            h1 {
+              font-size: 30px;
+            }
+          }
+    }
+  }

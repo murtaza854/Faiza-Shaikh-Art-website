@@ -1,0 +1,121 @@
+.series {
+    margin-top: 150px;
+    margin-bottom: 70px;
+    font-family: Mories;
+    h1 {
+      text-transform: capitalize;
+      font-size: 90px;
+      margin-bottom: 30px;
+    }
+    h3, h5 {
+      margin: 0;
+      font-family: 'Century Gothic';
+    }
+    .col-md-3 {
+      margin-bottom: 20px;
+      cursor: pointer;
+      &:focus {
+        outline: none;
+      }
+    }
+  
+    .img-container {
+      // height: 200px;
+      overflow: hidden;
+      width: 200px;
+      margin: auto;
+    }
+    
+    img {
+      // width: 200px; /* width of container */
+      // height: 200px; /* height of container */
+      object-fit: cover;
+      padding: 5px;
+      cursor: pointer;
+      transition: ease-in-out .3s;
+      &:hover {
+        filter: grayscale(100%);
+      }
+    }
+
+    .pagination {
+        a {
+            // font-size: 30px;
+            font-family: sans-serif;
+            // color: black !important;
+        }
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .series {
+        .col-md-3 {
+          flex: 0 0 35%;
+          max-width: fit-content;
+        }
+        .row {
+          justify-content: center;
+        }
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .series {
+      img {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+
+  @media (max-width: 744px) {
+    .series {
+      h1 {
+        font-size: 70px;
+      }
+      .img-container{
+        height: 150px;
+        width: 150px;
+      }
+      img {
+        // width: 150px;
+        // height: 150px;
+      }
+    }
+  }
+  
+  @media (max-width: 556px) {
+    .series {
+      h1 {
+        font-size: 50px;
+      }
+    }
+  }
+  
+  @media (max-width: 380px) {
+    .series {
+      h1 {
+        font-size: 40px;
+      }
+      .col-md-3 {
+        padding: 0 5px;
+      }
+    }
+  }
+  
+  @media (max-width: 350px) {
+    .series {
+      h1 {
+        font-size: 30px;
+      }
+        .img-container{
+          height: 125px;
+          width: 125px;
+        }
+        img {
+          // width: 125px;
+          // height: 125px;
+        }
+    }
+  }

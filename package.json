@@ -1,0 +1,13 @@
+{
+  "name": "Faiza-Shaikh-Art-website",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/murtaza854/Faiza-Shaikh-Art-website.git",
+  "author": "murtaza854 <54717475+murtaza854@users.noreply.github.com>",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-robots-txt": "^0.5.0"
+  }
+}

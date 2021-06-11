@@ -1,0 +1,24 @@
+.circles {
+    z-index: 3;
+    position: fixed;
+    width: fit-content;
+    right: 15px;
+    bottom: 15px;
+    margin-left: auto;
+    .circle {
+      width: 20px;
+      cursor: pointer;
+      margin: 10px 0;
+      height: 20px;
+      background-color: black;
+      border: 1px solid black;
+      border-radius: 100%;
+    }
+    .white {
+      background-color: white;
+      border: 1px solid white;
+    }
+    .active-circle {
+      background-color: transparent;
+    }
+  }

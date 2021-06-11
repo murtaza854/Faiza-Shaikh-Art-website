@@ -1,0 +1,30 @@
+.custom-navbar {
+  .navbar {
+      position: absolute;
+      z-index: 999999;
+      top: 0;
+      width: 100%;
+      .nav-link {
+        font-size: 25px;
+        color: black !important;
+      }
+    }
+    
+    .navbar-brand-text {
+      font-size: 40px;
+      color: black;
+      padding-left: 5px;
+    }
+    
+    .mr-auto {
+      margin-left: auto !important;
+      margin-right: 0 !important;
+    }
+    
+}
+
+@media (max-width: 767px) {
+  .navbar-brand-text {
+    display: none;
+  }
+}
