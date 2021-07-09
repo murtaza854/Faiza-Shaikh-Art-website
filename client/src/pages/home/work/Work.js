@@ -11,8 +11,8 @@ function Work(props) {
     return (
         <Container className="work" id="work-scroll" fluid>
             <Row>
-                <Col onClick={_ =>  history.push("/mini-series")} md={2}>
-                    <h3 className="bottom">Mini series</h3>
+                <Col onClick={_ =>  history.push("/mini-sketches")} md={2}>
+                    <h3 className="bottom">Mini Sketches</h3>
                 </Col>
                 <Col onClick={_ =>  history.push("/scripture-series")} md={2}>
                     <h3 className="middle">Scripture series</h3>

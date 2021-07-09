@@ -10,7 +10,7 @@ class Footer extends Component {
         <div className="footer-left">
           <h3>Faiza <span>Shaikh</span></h3>
           <p className="footer-links">
-            <a href="/mini-series" className="link-1">Mini Series</a>
+            <a href="/mini-sketches" className="link-1">Mini Sketches</a>
             <a href="/scripture-series">Scripture Series</a>
             <a href="/doll-series">Doll Series</a>
             <a href="/reflection-series">Reflection Series</a>

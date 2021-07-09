@@ -20,7 +20,7 @@ function Series(props) {
     ]
     let key = '';
     let path = '';
-    if (series === 'mini series') {
+    if (series === 'mini sketches') {
         key = 'Mini Sketches';
         path = 'Mini Sketches';
     }

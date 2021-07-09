@@ -11,7 +11,7 @@ function Painting(props) {
     series = series.replace(/[^a-zA-Z ]/g, " ");
     let key = '';
     let path = '';
-    if (series === 'mini series') {
+    if (series === 'mini sketches') {
         key = 'Mini Sketches';
         path = 'Mini Sketches';
     }
