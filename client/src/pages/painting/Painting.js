@@ -57,7 +57,7 @@ function Painting(props) {
                             <h1>{obj.Title}</h1>
                             <h5>{obj.Size}</h5>
                             <h5>{frame}</h5>
-                            <h5>{price}</h5>
+                            {/* <h5>{price}</h5> */}
                         </div>
                     </Col>
                     <Col className="first" md={4}>

@@ -3,7 +3,7 @@ const robots = require('express-robots-txt')
 const bodyParser = require('body-parser');
 var cors = require('cors');
 const app = express();
-const port = parseInt(3000);
+const port = parseInt(3007);
 
 app.use(bodyParser.json({ extended: true }));
 app.use(cors());

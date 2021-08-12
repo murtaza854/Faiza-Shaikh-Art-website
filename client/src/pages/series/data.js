@@ -451,6 +451,22 @@ const data = {
             "Frame": "No",
             "Price": "2115",
             "undefined": "1500"
+        },
+        {
+            "Name": "029.jpg",
+            "Title": "Star",
+            "Size": "110 cm x 130 cm",
+            "Frame": "No",
+            "Price": "2000",
+            "undefined": ""
+        },
+        {
+            "Name": "030.jpg",
+            "Title": "Looking Glass",
+            "Size": "90 cm x 90 cm",
+            "Frame": "No",
+            "Price": "3000",
+            "undefined": ""
         }
     ],
     "Monks": [
@@ -782,6 +798,14 @@ const data = {
             "Frame": "No",
             "Price": "3525",
             "undefined": "2500"
+        },
+        {
+            "Name": "027.jpg",
+            "Title": "Oysters Biography",
+            "Size": "100 cm x 100 cm",
+            "Frame": "No",
+            "Price": "3500",
+            "undefined": ""
         }
     ],
     "Reflection": [
@@ -904,6 +928,22 @@ const data = {
             "Frame": "No",
             "Price": "3950",
             "undefined": "2800"
+        },
+        {
+            "Name": "016.jpg",
+            "Title": "Untamed",
+            "Size": "70 cm x 120 cm",
+            "Frame": "No",
+            "Price": "6345",
+            "undefined": "4500"
+        },
+        {
+            "Name": "017.jpg",
+            "Title": "Fairytales",
+            "Size": "70 cm x 120 cm",
+            "Frame": "No",
+            "Price": "6345",
+            "undefined": "4500"
         }
     ],
     "Scripture Series": [
@@ -962,6 +1002,118 @@ const data = {
             "Frame": "Oil on Canvas",
             "Price": "540",
             "undefined": "2000"
+        },
+        {
+            "Name": "008.jpg",
+            "Title": "Noor",
+            "Size": "80 cm x 100 cm",
+            "Frame": "Oil and 24k Gold",
+            "Price": "945",
+            "undefined": "3500"
+        },
+        {
+            "Name": "009.jpg",
+            "Title": "Rehman",
+            "Size": "130 cm x 100 cm",
+            "Frame": "Oil on Canvas",
+            "Price": "1350",
+            "undefined": "5000"
+        },
+        {
+            "Name": "010.jpg",
+            "Title": "Pallet of Life",
+            "Size": "130 cm x 110 cm",
+            "Frame": "Oil on Canvas",
+            "Price": "1350",
+            "undefined": "5000"
+        },
+        {
+            "Name": "011.jpg",
+            "Title": "Divine",
+            "Size": "80 cm x 100 cm",
+            "Frame": "Oil on Canvas",
+            "Price": "810",
+            "undefined": "3000"
+        },
+        {
+            "Name": "012.jpg",
+            "Title": "Symphony of Peace",
+            "Size": "70 cm x 90 cm",
+            "Frame": "Oil on Canvas",
+            "Price": "700",
+            "undefined": "2600"
+        },
+        // {
+        //     "Name": "013.jpg",
+        //     "Title": "",
+        //     "Size": "",
+        //     "Frame": "Oil on Canvas",
+        //     "Price": "",
+        //     "undefined": ""
+        // },
+        {
+            "Name": "014.jpg",
+            "Title": "Rahman",
+            "Size": "20 cm x 30 cm",
+            "Frame": "Oil on Canvas",
+            "Price": "755",
+            "undefined": "2800"
+        },
+        // {
+        //     "Name": "015.jpg",
+        //     "Title": "",
+        //     "Size": "",
+        //     "Frame": "Oil on Canvas",
+        //     "Price": "",
+        //     "undefined": ""
+        // },
+        // {
+        //     "Name": "016.jpg",
+        //     "Title": "",
+        //     "Size": "",
+        //     "Frame": "Oil on Canvas",
+        //     "Price": "",
+        //     "undefined": ""
+        // },
+        // {
+        //     "Name": "017.jpg",
+        //     "Title": "",
+        //     "Size": "",
+        //     "Frame": "Oil on Canvas",
+        //     "Price": "",
+        //     "undefined": ""
+        // },
+        {
+            "Name": "018.jpg",
+            "Title": "Kaba",
+            "Size": "80 cm x 100 cm",
+            "Frame": "Oil on Canvas",
+            "Price": "810",
+            "undefined": "3000"
+        },
+        {
+            "Name": "019.jpg",
+            "Title": "Paradise",
+            "Size": "70 cm x 90 cm",
+            "Frame": "Oil on Canvas",
+            "Price": "945",
+            "undefined": "3500"
+        },
+        // {
+        //     "Name": "020.jpg",
+        //     "Title": "",
+        //     "Size": "",
+        //     "Frame": "Oil on Canvas",
+        //     "Price": "",
+        //     "undefined": ""
+        // },
+        {
+            "Name": "021.jpg",
+            "Title": "Universal Man",
+            "Size": "70 cm x 100 cm",
+            "Frame": "Oil on Canvas",
+            "Price": "810",
+            "undefined": "3000"
         }
     ]
 }
